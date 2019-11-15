@@ -50,7 +50,7 @@
     }
   },
   "lint-staged": {
-    "src/**/**/**/**/**/**/**/**/**/*.js": [
+    "src/**/*.js": [
       "npm run build",
       "git add"
     ]

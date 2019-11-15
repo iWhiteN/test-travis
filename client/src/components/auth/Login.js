@@ -15,7 +15,7 @@ import FacebookLogin from 'react-facebook-login';
 import GitHubLogin from 'react-github-login';
 
 const useStyles = makeStyles(theme => ({
-  card: {
+      card: {
     marginTop: theme.spacing(8),
     display: 'flex',
     flexDirection: 'column',
