@@ -55,6 +55,10 @@
       "git add"
     ]
   },
+  "pre-commit": [
+    "npm run build",
+    "git add"
+  ],
   "browserslist": {
     "production": [
       ">0.2%",
