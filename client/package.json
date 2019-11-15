@@ -50,8 +50,8 @@
     }
   },
   "lint-staged": {
-    "src/**/*.js": [
-      "yarn run build",
+    "*.(js|jsx)": [
+      "npm run build",
       "git add"
     ]
   },
