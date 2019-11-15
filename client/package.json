@@ -56,8 +56,7 @@
     ]
   },
   "pre-commit": [
-    "build",
-    "git add"
+    "build"
   ],
   "browserslist": {
     "production": [
