@@ -50,8 +50,8 @@
     }
   },
   "lint-staged": {
-    "*.(js|jsx)": [
-      "npm run build",
+    "src/**/*.js": [
+      "eslint --fix 'src/**/*.js'",
       "git add"
     ]
   },
