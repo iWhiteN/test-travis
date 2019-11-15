@@ -49,7 +49,8 @@
   },
   "lint-staged": {
     "src/**/*.js": [
-      "npm run build"
+      "npm run build",
+      "git add"
     ]
   },
   "browserslist": {
