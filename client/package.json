@@ -46,12 +46,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "build"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
     "src/**/*.js": [
-      "npm run eslint",
+      "yarn run build",
       "git add"
     ]
   },
