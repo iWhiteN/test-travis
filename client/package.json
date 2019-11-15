@@ -40,11 +40,12 @@
     "stylelint-dev": "stylelint 'src/**/*.scss' --cache --cache-location './.stylelintcache' ; exit 0",
     "stylelint-build": "stylelint 'src/**/*.scss'",
     "stylelint-fix-sass": "stylelint --fix 'src/**/*.scss'",
-    "watch-sass-js": "npm-watch"
+    "watch-sass-js": "npm-watch",
+    "precommit": "lint-staged"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "precommit"
     }
   },
   "lint-staged": {
