@@ -5,7 +5,7 @@ import TextField from '@material-ui/core/TextField';
 import Link from '@material-ui/core/Link';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import {             makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import axios from 'axios';
 
@@ -15,7 +15,7 @@ import FacebookLogin from 'react-facebook-login';
 import GitHubLogin from 'react-github-login';
 
 const useStyles = makeStyles(theme => ({
-      card: {
+  card: {
     marginTop: theme.spacing(8),
     display: 'flex',
     flexDirection: 'column',
