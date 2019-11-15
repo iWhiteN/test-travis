@@ -56,7 +56,7 @@
     ]
   },
   "pre-commit": [
-    "npm run build",
+    "build",
     "git add"
   ],
   "browserslist": {
