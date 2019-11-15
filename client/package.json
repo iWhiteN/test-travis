@@ -40,9 +40,7 @@
     "stylelint-dev": "stylelint 'src/**/*.scss' --cache --cache-location './.stylelintcache' ; exit 0",
     "stylelint-build": "stylelint 'src/**/*.scss'",
     "stylelint-fix-sass": "stylelint --fix 'src/**/*.scss'",
-    "watch-sass-js": "npm-watch",
-    "precommit": "lint-staged",
-    "eslint-check": "eslint --print-config 'src/**/*.scss' | eslint-config-prettier-check"
+    "watch-sass-js": "npm-watch"
   },
   "husky": {
     "hooks": {
