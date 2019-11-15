@@ -41,7 +41,7 @@
     "stylelint-build": "stylelint 'src/**/*.scss'",
     "stylelint-fix-sass": "stylelint --fix 'src/**/*.scss'",
     "watch-sass-js": "npm-watch",
-    "precommit": "lint-staged"
+    "precommit": "npm run build"
   },
   "husky": {
     "hooks": {
