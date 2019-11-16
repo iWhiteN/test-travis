@@ -1,17 +1,11 @@
-  language: node_js
-
-  node_js:
-    - "stable"
-
-  cash:
-    directories:
-      - ./client/node_modules
-        ./server/node_modules
-
-  before_script:
-    - npm run installAll
-
-  script:
-    - npm run build ./client
-
-
+language: node_js
+node_js:
+  - "stable"
+cash:
+  directories:
+    - ./client/node_modules
+      ./server/node_modules
+before_script:
+  - npm run installAll
+script:
+  - npm run build ./client
