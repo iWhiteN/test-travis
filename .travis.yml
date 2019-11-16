@@ -13,4 +13,3 @@ before_script:
 
 script:
   - yarn --cwd ./client run build
-  
