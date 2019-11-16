@@ -13,3 +13,5 @@
 
   script:
     - npm run build ./client
+
+    
