@@ -10,5 +10,4 @@ before_script:
   - yarn run installAll
 script:
   - yarn --cwd ./client run build
-
   
