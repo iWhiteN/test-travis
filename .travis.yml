@@ -9,9 +9,7 @@
         ./server/node_modules
 
   before_script:
-    - yarn run installAll
+    - npm run installAll
 
   script:
-    - yarn run build ./client
-
-    
+    - npm run build ./client
