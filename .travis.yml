@@ -3,9 +3,10 @@
   node_js:
     - "stable"
 
-  cash-directories:
-    - ./client/node_modules
-      ./server/node_modules
+  cash:
+    directories:
+      - ./client/node_modules
+        ./server/node_modules
 
   before_script:
     - yarn run installAll
