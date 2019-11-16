@@ -8,4 +8,4 @@ cash:
 before_script:
   - yarn run installAll
 script:
-  - yarn run build client/
+  - yarn --cwd ./client run build
