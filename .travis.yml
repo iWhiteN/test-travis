@@ -6,6 +6,6 @@ cash:
     - ./client/node_modules
       ./server/node_modules
 before_script:
-  - npm run installAll
+  - yarn run installAll
 script:
-  - npm run build ./client
+  - yarn run build client/
