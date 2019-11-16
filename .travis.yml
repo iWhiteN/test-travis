@@ -14,11 +14,3 @@
 
   script:
     - yarn run build ./client
-
-  deploy:
-    provider: heroku
-    api_key:
-      secure: 02fd9fe8-39cd-481e-abf9-09fd627f4ae1
-    app: final-project-online-store
-    on:
-      repo: vashenko49/final_project
